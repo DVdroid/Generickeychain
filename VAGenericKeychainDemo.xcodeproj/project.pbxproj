@@ -9,25 +9,54 @@
 /* Begin PBXBuildFile section */
 		D60DB664239A1E5E00F906F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB663239A1E5E00F906F3 /* AppDelegate.swift */; };
 		D60DB666239A1E5E00F906F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB665239A1E5E00F906F3 /* SceneDelegate.swift */; };
-		D60DB668239A1E5E00F906F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB667239A1E5E00F906F3 /* ViewController.swift */; };
 		D60DB66B239A1E5E00F906F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DB669239A1E5E00F906F3 /* Main.storyboard */; };
 		D60DB66D239A1E6100F906F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60DB66C239A1E6100F906F3 /* Assets.xcassets */; };
 		D60DB670239A1E6100F906F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DB66E239A1E6100F906F3 /* LaunchScreen.storyboard */; };
+		D60DB679239A1F4E00F906F3 /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB677239A1F4E00F906F3 /* KeychainConfiguration.swift */; };
+		D60DB67A239A1F4E00F906F3 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB678239A1F4E00F906F3 /* KeychainPasswordItem.swift */; };
+		D60DB67D239A201F00F906F3 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB67B239A201F00F906F3 /* AccountsViewController.swift */; };
+		D60DB67E239A201F00F906F3 /* AccountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB67C239A201F00F906F3 /* AccountDetailsViewController.swift */; };
+		D60DB6C2239A27D900F906F3 /* KeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB678239A1F4E00F906F3 /* KeychainPasswordItem.swift */; };
+		D60DB6C3239A27D900F906F3 /* AccountDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB67C239A201F00F906F3 /* AccountDetailsViewController.swift */; };
+		D60DB6C4239A27D900F906F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB663239A1E5E00F906F3 /* AppDelegate.swift */; };
+		D60DB6C5239A27D900F906F3 /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB677239A1F4E00F906F3 /* KeychainConfiguration.swift */; };
+		D60DB6C6239A27D900F906F3 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB67B239A201F00F906F3 /* AccountsViewController.swift */; };
+		D60DB6C7239A27D900F906F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB665239A1E5E00F906F3 /* SceneDelegate.swift */; };
+		D60DB6CA239A27D900F906F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DB66E239A1E6100F906F3 /* LaunchScreen.storyboard */; };
+		D60DB6CB239A27D900F906F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60DB66C239A1E6100F906F3 /* Assets.xcassets */; };
+		D60DB6CC239A27D900F906F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DB669239A1E5E00F906F3 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D60DB660239A1E5E00F906F3 /* VAKeychainDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VAKeychainDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60DB660239A1E5E00F906F3 /* VAGenericKeychain1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VAGenericKeychain1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60DB663239A1E5E00F906F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D60DB665239A1E5E00F906F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D60DB667239A1E5E00F906F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D60DB66A239A1E5E00F906F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D60DB66C239A1E6100F906F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D60DB66F239A1E6100F906F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D60DB671239A1E6100F906F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D60DB677239A1F4E00F906F3 /* KeychainConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainConfiguration.swift; sourceTree = "<group>"; };
+		D60DB678239A1F4E00F906F3 /* KeychainPasswordItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainPasswordItem.swift; sourceTree = "<group>"; };
+		D60DB67B239A201F00F906F3 /* AccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		D60DB67C239A201F00F906F3 /* AccountDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountDetailsViewController.swift; sourceTree = "<group>"; };
+		D60DB6AA239A242400F906F3 /* VAGenericKeychain1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VAGenericKeychain1.entitlements; sourceTree = "<group>"; };
+		D60DB6BE239A25B800F906F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D60DB6D0239A27D900F906F3 /* VAGenericKeychain2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VAGenericKeychain2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D60DB6D1239A27D900F906F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Volumes/VA/Code/Git/VAGenericKeychainDemo/Info.plist; sourceTree = "<absolute>"; };
+		D60DB6D3239A2FCE00F906F3 /* VAGenericKeychain2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VAGenericKeychain2.entitlements; sourceTree = "<group>"; };
+		D60DB6DA239A375700F906F3 /* VAGenericKeychain1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAGenericKeychain1Tests.swift; sourceTree = "<group>"; };
+		D60DB6DC239A375700F906F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		D60DB65D239A1E5E00F906F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60DB6C8239A27D900F906F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,7 +69,9 @@
 		D60DB657239A1E5E00F906F3 = {
 			isa = PBXGroup;
 			children = (
-				D60DB662239A1E5E00F906F3 /* VAKeychainDemo */,
+				D60DB6BE239A25B800F906F3 /* Default-568h@2x.png */,
+				D60DB662239A1E5E00F906F3 /* VAGenericKeychainDemo */,
+				D60DB6D9239A375700F906F3 /* VAGenericKeychain1Tests */,
 				D60DB661239A1E5E00F906F3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +79,63 @@
 		D60DB661239A1E5E00F906F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D60DB660239A1E5E00F906F3 /* VAKeychainDemo.app */,
+				D60DB660239A1E5E00F906F3 /* VAGenericKeychain1.app */,
+				D60DB6D0239A27D900F906F3 /* VAGenericKeychain2.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D60DB662239A1E5E00F906F3 /* VAKeychainDemo */ = {
+		D60DB662239A1E5E00F906F3 /* VAGenericKeychainDemo */ = {
 			isa = PBXGroup;
 			children = (
 				D60DB663239A1E5E00F906F3 /* AppDelegate.swift */,
 				D60DB665239A1E5E00F906F3 /* SceneDelegate.swift */,
-				D60DB667239A1E5E00F906F3 /* ViewController.swift */,
+				D60DB67B239A201F00F906F3 /* AccountsViewController.swift */,
+				D60DB67C239A201F00F906F3 /* AccountDetailsViewController.swift */,
+				D60DB677239A1F4E00F906F3 /* KeychainConfiguration.swift */,
+				D60DB678239A1F4E00F906F3 /* KeychainPasswordItem.swift */,
 				D60DB669239A1E5E00F906F3 /* Main.storyboard */,
 				D60DB66C239A1E6100F906F3 /* Assets.xcassets */,
 				D60DB66E239A1E6100F906F3 /* LaunchScreen.storyboard */,
-				D60DB671239A1E6100F906F3 /* Info.plist */,
+				D60DB6A9239A23EF00F906F3 /* App1 */,
+				D60DB6D2239A281400F906F3 /* App2 */,
 			);
-			path = VAKeychainDemo;
+			path = VAGenericKeychainDemo;
+			sourceTree = "<group>";
+		};
+		D60DB6A9239A23EF00F906F3 /* App1 */ = {
+			isa = PBXGroup;
+			children = (
+				D60DB671239A1E6100F906F3 /* Info.plist */,
+				D60DB6AA239A242400F906F3 /* VAGenericKeychain1.entitlements */,
+			);
+			path = App1;
+			sourceTree = "<group>";
+		};
+		D60DB6D2239A281400F906F3 /* App2 */ = {
+			isa = PBXGroup;
+			children = (
+				D60DB6D1239A27D900F906F3 /* Info.plist */,
+				D60DB6D3239A2FCE00F906F3 /* VAGenericKeychain2.entitlements */,
+			);
+			path = App2;
+			sourceTree = "<group>";
+		};
+		D60DB6D9239A375700F906F3 /* VAGenericKeychain1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D60DB6DA239A375700F906F3 /* VAGenericKeychain1Tests.swift */,
+				D60DB6DC239A375700F906F3 /* Info.plist */,
+			);
+			path = VAGenericKeychain1Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D60DB65F239A1E5E00F906F3 /* VAKeychainDemo */ = {
+		D60DB65F239A1E5E00F906F3 /* VAGenericKeychain1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D60DB674239A1E6100F906F3 /* Build configuration list for PBXNativeTarget "VAKeychainDemo" */;
+			buildConfigurationList = D60DB674239A1E6100F906F3 /* Build configuration list for PBXNativeTarget "VAGenericKeychain1" */;
 			buildPhases = (
 				D60DB65C239A1E5E00F906F3 /* Sources */,
 				D60DB65D239A1E5E00F906F3 /* Frameworks */,
@@ -82,9 +145,26 @@
 			);
 			dependencies = (
 			);
-			name = VAKeychainDemo;
+			name = VAGenericKeychain1;
 			productName = VAKeychainDemo;
-			productReference = D60DB660239A1E5E00F906F3 /* VAKeychainDemo.app */;
+			productReference = D60DB660239A1E5E00F906F3 /* VAGenericKeychain1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D60DB6C0239A27D900F906F3 /* VAGenericKeychain2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D60DB6CD239A27D900F906F3 /* Build configuration list for PBXNativeTarget "VAGenericKeychain2" */;
+			buildPhases = (
+				D60DB6C1239A27D900F906F3 /* Sources */,
+				D60DB6C8239A27D900F906F3 /* Frameworks */,
+				D60DB6C9239A27D900F906F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VAGenericKeychain2;
+			productName = VAKeychainDemo;
+			productReference = D60DB6D0239A27D900F906F3 /* VAGenericKeychain2.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +182,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D60DB65B239A1E5E00F906F3 /* Build configuration list for PBXProject "VAKeychainDemo" */;
+			buildConfigurationList = D60DB65B239A1E5E00F906F3 /* Build configuration list for PBXProject "VAGenericKeychainDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +195,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D60DB65F239A1E5E00F906F3 /* VAKeychainDemo */,
+				D60DB65F239A1E5E00F906F3 /* VAGenericKeychain1 */,
+				D60DB6C0239A27D900F906F3 /* VAGenericKeychain2 */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +212,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D60DB6C9239A27D900F906F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60DB6CA239A27D900F906F3 /* LaunchScreen.storyboard in Resources */,
+				D60DB6CB239A27D900F906F3 /* Assets.xcassets in Resources */,
+				D60DB6CC239A27D900F906F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -138,9 +229,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D60DB668239A1E5E00F906F3 /* ViewController.swift in Sources */,
+				D60DB67A239A1F4E00F906F3 /* KeychainPasswordItem.swift in Sources */,
+				D60DB67E239A201F00F906F3 /* AccountDetailsViewController.swift in Sources */,
 				D60DB664239A1E5E00F906F3 /* AppDelegate.swift in Sources */,
+				D60DB679239A1F4E00F906F3 /* KeychainConfiguration.swift in Sources */,
+				D60DB67D239A201F00F906F3 /* AccountsViewController.swift in Sources */,
 				D60DB666239A1E5E00F906F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60DB6C1239A27D900F906F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D60DB6C2239A27D900F906F3 /* KeychainPasswordItem.swift in Sources */,
+				D60DB6C3239A27D900F906F3 /* AccountDetailsViewController.swift in Sources */,
+				D60DB6C4239A27D900F906F3 /* AppDelegate.swift in Sources */,
+				D60DB6C5239A27D900F906F3 /* KeychainConfiguration.swift in Sources */,
+				D60DB6C6239A27D900F906F3 /* AccountsViewController.swift in Sources */,
+				D60DB6C7239A27D900F906F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,14 +391,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VAGenericKeychainDemo/App1/VAGenericKeychain1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6LN4XWA2V;
-				INFOPLIST_FILE = VAKeychainDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VAGenericKeychainDemo/App1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.va..VAKeychainDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.va.VAGenericKeychain1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,14 +410,53 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VAGenericKeychainDemo/App1/VAGenericKeychain1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B6LN4XWA2V;
-				INFOPLIST_FILE = VAKeychainDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/VAGenericKeychainDemo/App1/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.va..VAKeychainDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.va.VAGenericKeychain1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D60DB6CE239A27D900F906F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VAGenericKeychainDemo/App2/VAGenericKeychain2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6LN4XWA2V;
+				INFOPLIST_FILE = "$(SRCROOT)/VAGenericKeychainDemo/App2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.va.VAGenericKeychain2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D60DB6CF239A27D900F906F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = VAGenericKeychainDemo/App2/VAGenericKeychain2.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6LN4XWA2V;
+				INFOPLIST_FILE = "$(SRCROOT)/VAGenericKeychainDemo/App2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.va.VAGenericKeychain2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -319,7 +466,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D60DB65B239A1E5E00F906F3 /* Build configuration list for PBXProject "VAKeychainDemo" */ = {
+		D60DB65B239A1E5E00F906F3 /* Build configuration list for PBXProject "VAGenericKeychainDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D60DB672239A1E6100F906F3 /* Debug */,
@@ -328,11 +475,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D60DB674239A1E6100F906F3 /* Build configuration list for PBXNativeTarget "VAKeychainDemo" */ = {
+		D60DB674239A1E6100F906F3 /* Build configuration list for PBXNativeTarget "VAGenericKeychain1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D60DB675239A1E6100F906F3 /* Debug */,
 				D60DB676239A1E6100F906F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D60DB6CD239A27D900F906F3 /* Build configuration list for PBXNativeTarget "VAGenericKeychain2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D60DB6CE239A27D900F906F3 /* Debug */,
+				D60DB6CF239A27D900F906F3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
