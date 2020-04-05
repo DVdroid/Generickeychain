@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D60DB664239A1E5E00F906F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB663239A1E5E00F906F3 /* AppDelegate.swift */; };
-		D60DB666239A1E5E00F906F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB665239A1E5E00F906F3 /* SceneDelegate.swift */; };
 		D60DB66B239A1E5E00F906F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DB669239A1E5E00F906F3 /* Main.storyboard */; };
 		D60DB66D239A1E6100F906F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60DB66C239A1E6100F906F3 /* Assets.xcassets */; };
 		D60DB670239A1E6100F906F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DB66E239A1E6100F906F3 /* LaunchScreen.storyboard */; };
@@ -21,7 +20,6 @@
 		D60DB6C4239A27D900F906F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB663239A1E5E00F906F3 /* AppDelegate.swift */; };
 		D60DB6C5239A27D900F906F3 /* KeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB677239A1F4E00F906F3 /* KeychainConfiguration.swift */; };
 		D60DB6C6239A27D900F906F3 /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB67B239A201F00F906F3 /* AccountsViewController.swift */; };
-		D60DB6C7239A27D900F906F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60DB665239A1E5E00F906F3 /* SceneDelegate.swift */; };
 		D60DB6CA239A27D900F906F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DB66E239A1E6100F906F3 /* LaunchScreen.storyboard */; };
 		D60DB6CB239A27D900F906F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D60DB66C239A1E6100F906F3 /* Assets.xcassets */; };
 		D60DB6CC239A27D900F906F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D60DB669239A1E5E00F906F3 /* Main.storyboard */; };
@@ -30,7 +28,6 @@
 /* Begin PBXFileReference section */
 		D60DB660239A1E5E00F906F3 /* VAGenericKeychain1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VAGenericKeychain1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D60DB663239A1E5E00F906F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D60DB665239A1E5E00F906F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D60DB66A239A1E5E00F906F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D60DB66C239A1E6100F906F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D60DB66F239A1E6100F906F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -42,10 +39,10 @@
 		D60DB6AA239A242400F906F3 /* VAGenericKeychain1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VAGenericKeychain1.entitlements; sourceTree = "<group>"; };
 		D60DB6BE239A25B800F906F3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		D60DB6D0239A27D900F906F3 /* VAGenericKeychain2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VAGenericKeychain2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D60DB6D1239A27D900F906F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = /Volumes/VA/Code/Git/VAGenericKeychainDemo/Info.plist; sourceTree = "<absolute>"; };
 		D60DB6D3239A2FCE00F906F3 /* VAGenericKeychain2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VAGenericKeychain2.entitlements; sourceTree = "<group>"; };
 		D60DB6DA239A375700F906F3 /* VAGenericKeychain1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAGenericKeychain1Tests.swift; sourceTree = "<group>"; };
 		D60DB6DC239A375700F906F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6546E612439F28300E49C52 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +86,6 @@
 			isa = PBXGroup;
 			children = (
 				D60DB663239A1E5E00F906F3 /* AppDelegate.swift */,
-				D60DB665239A1E5E00F906F3 /* SceneDelegate.swift */,
 				D60DB67B239A201F00F906F3 /* AccountsViewController.swift */,
 				D60DB67C239A201F00F906F3 /* AccountDetailsViewController.swift */,
 				D60DB677239A1F4E00F906F3 /* KeychainConfiguration.swift */,
@@ -115,7 +111,7 @@
 		D60DB6D2239A281400F906F3 /* App2 */ = {
 			isa = PBXGroup;
 			children = (
-				D60DB6D1239A27D900F906F3 /* Info.plist */,
+				D6546E612439F28300E49C52 /* Info.plist */,
 				D60DB6D3239A2FCE00F906F3 /* VAGenericKeychain2.entitlements */,
 			);
 			path = App2;
@@ -234,7 +230,6 @@
 				D60DB664239A1E5E00F906F3 /* AppDelegate.swift in Sources */,
 				D60DB679239A1F4E00F906F3 /* KeychainConfiguration.swift in Sources */,
 				D60DB67D239A201F00F906F3 /* AccountsViewController.swift in Sources */,
-				D60DB666239A1E5E00F906F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +242,6 @@
 				D60DB6C4239A27D900F906F3 /* AppDelegate.swift in Sources */,
 				D60DB6C5239A27D900F906F3 /* KeychainConfiguration.swift in Sources */,
 				D60DB6C6239A27D900F906F3 /* AccountsViewController.swift in Sources */,
-				D60DB6C7239A27D900F906F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
